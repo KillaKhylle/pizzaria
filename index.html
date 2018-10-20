@@ -1,87 +1,100 @@
 <!DOCTYPE html>
-<html>
-    <head><id>Intro</id> 
-            <div>Content<h1>"Pizzaria La DevLeague"</h1>
-                <h2><id>"Functional Pizza For All!</id></h2>
-                <img src="C:\Users\Khylle Shaw\Desktop\DevLeague\pizzaria\assets\pizzaMan.jpeg" alt="Logo" height="250" width="250" >
-                    <nav><id>"topMenu"</id>
-                        <ul style="list-style-type:guide">
-                                <li><a href= "#today">Today's Special</a></li>
-                                <li><a href= "#menu">Menu</a></li>
-                                <li><a href= "#subscribe">Subscribe</a></li>
-                                <li><a href= "#visit">Visit</a></li>  
-                        </ul>
-                    </nav>
+<html lang="en">
+    <link rel="stylesheet" href="css/styles.css">
+    <body>
+        <head id="intro">
+            <div class="content"><h1 id="name">Pizzaria La DevLeague</h1>
+                <h2 id="tagLine">Functional Pizza For All!</h2>
+                <img src="C:\Users\Owner\Desktop\DevLeaguePrep\pizzaria\assets\pizzaMan.jpeg" alt="Logo" height="250" width="250" >
+                    <div id=topMenu>
+                    <ul>
+                        <li class="guide"><a href="#today">Today's Special</a></li>
+                        <li class="guide"><a href="#menu">Menu</a></li>
+                        <li class="guide"><a href="#subscribe">Subscribe</a></li> <li class="guide"><a href="#visit">Visit</a></li> 
+                    </ul>
+                    </div>
             </div>
-        <section><id>"today"</id>
-            <div>Content 
-                <h3><id>sectionTitle</id>Today's Special</h3>
-                <p>Conditional Love<id>special</id></p>
+
+<section id="today">
+    <div class="content">
+        <h3 class="sectionTitle">Today's Special</h3>
+            <p id="special">Conditional Love</p>
+    </div>
+</section>
+
+<section id="Menu">
+    <div class="Content" >
+        <h3 class="sectionTitle">Menu</h3>
+            
+            <div class="Pizza">
+            <p class="pizzaName">Object of my Desire</p>
+            <p class="description">A programmers delight, this classic has string chesse, an array of BBQ meats and 1 special sauce.</p>
+            <p class="Price">$19.99</p>
             </div>
-        </section>
-        <section><id>"menu"</id>
-            <div>Content 
-                <h3><id>sectionTitle</id>Menu</h3>
+    </div>  
+            
+            <div class="Pizza">
+            <p class="pizzaName">Four Loop</p>
+            <p class="description">Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!</p>
+            <p class="Price">$49.99</p>
             </div>
-            <div>Pizza 
-                <p>Object of My Desire<id>pizzaName</id></p>
-                <p>A programmers delight, this classic has string chesse, an array of BBQ meats and 1 special sauce.<id>description</id></p>
-                <p>$19.99<id>price</id></p>
+
+            <div class="Pizza">
+            <p class="pizzaName">Conditional Love</p>
+            <p class="description">This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!</p>
+            <p class="Price">$22.14</p>
             </div>
-        </div>
-        <div>Pizza 
-            <p>Four Loop<id>pizzaName</id></p>
-            <p>Spin your wheel with this quattro cheese mix doused in garlic and truffle oil. Loop there it is!.<id>description</id></p>
-            <p>$44.44<id>price</id></p>
-        </div>
-        <div>Pizza 
-            <p>Conditional Love<id>pizzaName</id></p>
-            <p>This island favorite doesn't give you a chance to say no. Korean bulgogi meat, kim chee, mozzarella cheese and onions always returns true! Boo~Ya!<id>description</id></p>
-            <p>$22.14<id>price</id></p>
-        </div>
-        <div>Pizza 
-            <p>The DOM<id>pizzaName</id></p>
-            <p>This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!<id>description</id></p>
-            <p>$16.99<id>price</id></p>
-        </div>
-        <div>Pizza 
-            <p>Conjunction Function<id>pizzaName</id></p>
-            <p>Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!<id>description</id></p>
-            <p>$17.02<id>price</id></p>
-        </div>
-        </section>
-        <section><id>"subscribe"</id>
-            <div>content 
-                <h3><id>sectionTitle</id>Subscribe</h3>
-                <p>Sign up for our special deals!<id>deal</id></p>
-                <form action="/action_page.php">
-                    First name: <input type="text" name="FirstName" value=""><br>
-                    Last name: <input type="text" name="LastName" value=""><br>
-                    Eamil: <input type="text" name="LastName" value=""><br>
-                    <input type="submit" value="Submit">
-                </form>
+            
+            <div class="Pizza">
+            <p class="pizzaName">The DOM</p>
+            <p class="description">This dynamic blend of Duck, Olives and Mango will change your original thought of what a pizza should be. The only thing constant is change for this bad boy!</p>
+            <p class="Price">$16.99</p>
             </div>
-        </section>
-        <section><id>"visit"</id>
-            <div>Content 
-                <h3><id>sectionTitle</id>Visit</h3>
-                <ul><id>Address</id><li>2800 Woodlawn Dr.
-                    Honolulu, HI 96822<id>Street</id></li><id>Map
-                <li> <a href= "https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</id></a></li>
-                </ul>
-                <ul><id>Hours</id>
-                    <li>Monday - Saturday</li>
-                    <li>12pm - 12am</li>
-                    <li>Coding On Sundays</li>
-                  </ul> 
+            
+            <div class="Pizza">
+            <p class="pizzaName">Conjunction Function</p>
+            <p class="description">Create your own pie by passing in handpicked fresh ingredients. Invoke your appetite and creativity! Mamma Mia return back to glory!</p>
+            <p class="Price">$17.02</p>
             </div>
-        </section>
-    </head>
-    <footer>
-        <div>
-            <id>Content</id>
-            <p>Site Design and Development By Khylle Shaw<id>Credit</id></p>
-            <p>&copy 2017 Gin Drinkers Association (GDA)<id>Copyright</id></p>
-        </div>
-    </footer>
+</section>
+
+<section id="Subscribe">
+    <div id="content"> 
+        <h3 class="sectionTitle">Subscribe</h3>
+        <p id="deal">Sign up for our special deals!</p>
+            <form action="/action_page.php">
+            First name: <input type="text" name="FirstName" value=""><br>
+            Last name: <input type="text" name="LastName" value=""><br>
+            Eamil: <input type="text" name="LastName" value=""><br>
+            <input type="submit" value="Submit">
+            </form>
+    </div>
+</section>
+
+<section id="visit">
+    <div class="content"> 
+        <h3 class="sectionTitle">Visit</h3>
+            <ul id="Address">
+                <li id="street">2800 Woodlawn Dr.<br>Honolulu, HI 96822</li>
+                <li id="map" <a href= "https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">View Map</a></li>
+            </ul>
+
+    <ul class="Hours">
+        <li>Monday - Saturday</li>
+        <li>12pm - 12am</li>
+        <li>Coding On Sundays</li>
+    </ul> 
+    </div>
+</section>
+
+</head>
+
+<footer>
+    <div class="Content">
+        <p id="credit">Site Design and Development By Khylle Shaw</p>
+        <p id="copyright">&copy 2017 Gin Drinkers Association (GDA)</p>
+    </div>
+
+</footer>
+</body>
 </html>
